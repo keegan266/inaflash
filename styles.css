@@ -1,0 +1,84 @@
+body {
+    background: rgb(45,30,161);
+    background: linear-gradient(90deg, rgba(45,30,161,1) 28%, rgba(40,86,199,1) 70%);
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: transparent !important;
+    float: right !important;
+}
+
+.nav-item a {
+    color: white !important;
+}
+
+.navbar-brand {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    padding: .5rem 1rem;
+}
+
+.nav-img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.nav-link {
+    font-size: 26px;
+}
+
+.darken {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+.jumbotron {
+    background: transparent;
+    color: white;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.lead {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.motto {
+    margin-bottom: 10%;
+}
+
+.no-padding-top {
+    padding-top: 5px;
+}
+
+.card {
+    margin: 0;
+    border: none;
+    background: transparent;
+    color: white;
+}
+
+.card-deck {
+    width: 100%;
+    margin-right: 0 !important;
+    margin-left: 0; 
+}
+
+.card-body-img {
+    padding: 0;    
+}
+
+.card-body-text {
+    padding-top: 15%;
+}
