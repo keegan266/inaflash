@@ -77,8 +77,26 @@ a:hover {
 
 .card-body-img {
     padding: 0;
+    padding-left: 180px;
 }
 
 .card-body-text {
-    padding-top: 15%;
+    color: black;
+    line-height: 50px;
+}
+
+.card-title {
+    font-size: 60px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.dark-text {
+    color: black;
+}
+
+.dark-text:hover {
+    color: black;
 }
