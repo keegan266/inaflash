@@ -1,6 +1,6 @@
 body {
-    background: rgb(45,30,161);
-    background: linear-gradient(90deg, rgba(45,30,161,1) 28%, rgba(40,86,199,1) 70%);
+    background: rgb(42 ,255,242);
+    background: linear-gradient(90deg, rgba(42,255,242,1) 33%, rgba(208,21,174,1) 71%);
     height: 100%;
 }
 
@@ -72,11 +72,11 @@ a:hover {
 .card-deck {
     width: 100%;
     margin-right: 0 !important;
-    margin-left: 0; 
+    margin-left: 0;
 }
 
 .card-body-img {
-    padding: 0;    
+    padding: 0;
 }
 
 .card-body-text {
