@@ -49,6 +49,10 @@ a:hover {
     padding-bottom: 0;
 }
 
+.display-2 {
+    font-size: 110px;
+}
+
 .lead {
     font-size: 30px;
     margin-bottom: 0;
@@ -82,7 +86,6 @@ a:hover {
 .card-body-text {
     color: black;
     line-height: 50px;
-    margin-top: 70px;
 }
 
 .card-title {
@@ -91,6 +94,7 @@ a:hover {
 
 .card-img {
     border-radius: 1%;
+    box-shadow: 5px 5px 20px black;
 }
 
 .font-bold {
