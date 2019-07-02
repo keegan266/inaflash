@@ -111,3 +111,33 @@ a:hover {
 .underline {
     text-decoration: underline;
 }
+
+.text-outline {
+    text-shadow: 
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.page-break {
+    background-image: url(images/kat-yukawa-K0E6E0a0R3A-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(80%);
+    height: 100%;
+    margin-top: 50px;
+}
+
+.text-white {
+    color: white;
+}
+
+.page-break-text {
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.page-break-header {
+    padding-top: 75px;
+}
