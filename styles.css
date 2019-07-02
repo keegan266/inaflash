@@ -1,16 +1,15 @@
 body {
-    background: rgb(42 ,255,242);
-    background: linear-gradient(90deg, rgba(42,255,242,1) 33%, rgba(208,21,174,1) 71%);
     height: 100%;
+    background-color: #f1f0ee;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #3a4660;
 }
 
 a:hover {
-    color: black;
+    color: #3a4660;
     text-decoration: none;
 }
 
@@ -20,7 +19,7 @@ a:hover {
 }
 
 .nav-item a {
-    color: black !important;
+    color: #3a4660 !important;
 }
 
 .navbar-brand {
@@ -44,7 +43,7 @@ a:hover {
 
 .jumbotron {
     background: transparent;
-    color: black;
+    color: #3a4660;
     text-align: center;
     padding-bottom: 0;
 }
@@ -70,7 +69,6 @@ a:hover {
     margin: 0;
     border: none;
     background: transparent;
-    color: white;
 }
 
 .card-deck {
@@ -84,12 +82,13 @@ a:hover {
 }
 
 .card-body-text {
-    color: black;
+    color: #3a4660;
     line-height: 50px;
 }
 
 .card-title {
     font-size: 60px;
+    color: #3a4660;
 }
 
 .card-img {
@@ -107,4 +106,8 @@ a:hover {
 
 .dark-text:hover {
     color: black;
+}
+
+.underline {
+    text-decoration: underline;
 }
