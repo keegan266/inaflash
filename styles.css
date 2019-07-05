@@ -163,7 +163,7 @@ footer a:hover {
     color: white;
 }
 
-footer h4 {
+footer h3 {
     padding-bottom: 15px;
 }
 
@@ -175,7 +175,6 @@ footer h4 {
     display: flex;
     margin: 15px;
     margin-bottom: 0;
-    padding-bottom: 50px;
     padding-top: 50px;
 }
 
@@ -197,4 +196,8 @@ footer h4 {
 
 .column-2 {
     display: inline-block;
+}
+
+.copyright {
+    padding-top: 25px;
 }
