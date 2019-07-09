@@ -209,3 +209,16 @@ footer h3 {
  left: 155px;
  top: 100px;
 }
+
+/* media queries */
+
+@media only screen and (max-width: 1455px) {
+    .card-deck {
+        display: block !important;
+        text-align: center;
+    }
+
+    .info {
+        padding-bottom: 100px;
+    }
+}
