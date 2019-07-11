@@ -141,10 +141,12 @@ a:hover {
 .page-break-text {
     padding-bottom: 100px;
     padding-top: 50px;
+    color: white;
 }
 
 .page-break-header {
     padding-top: 75px;
+    color: white;
 }
 
 footer {
@@ -202,6 +204,10 @@ footer h3 {
     padding-top: 25px;
 }
 
+.copyright-2 {
+    opacity: 0;
+}
+
 /*  Calendar CSS  */
 
 .calendar-position{
@@ -209,6 +215,42 @@ footer h3 {
  left: 155px;
  top: 100px;
 }
+
+/* Calender CSS end */
+
+/*media object css*/
+
+.headshot {
+    width: 200px;
+}
+
+.media {
+    max-width: 50%;
+    padding-top: 50px;
+    text-align: left;
+    margin: auto;
+}
+
+.staff-container {
+    color: #3a4660 !important;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.staff-about {
+    font-size: 22px;
+}
+
+.media-body {
+    margin-left: 50px;
+    padding-top: 30px;    
+}
+
+.staff-body-container {
+    margin-top: 50px;
+}
+
+/*media object css end*/
 
 /* media queries */
 
@@ -220,5 +262,49 @@ footer h3 {
 
     .info {
         padding-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .row {
+       flex-direction: column; 
+    }
+
+    .copyright-2 {
+        opacity: 1;
+    }
+
+    .copyright-1 {
+        opacity: 0;
+    }
+
+    .column-1 {
+        padding-bottom: 50px;
+    }
+
+    .page-break {
+        background-image: none;
+        filter: brightness(100%);
+    }
+
+    .page-break-header {
+        color: #3a4660 !important;
+        font-size: 70px;
+    }
+
+    .page-break-text {
+        color: #3a4660 !important;        
+    }
+
+    .display-2 {
+        font-size: 80px;
+    }
+
+    .card-title {
+        font-size: 50px;
+    }
+
+    .card-text {
+        font-size: 25px;
     }
 }
