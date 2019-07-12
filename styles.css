@@ -18,6 +18,16 @@ a:hover {
     float: right !important;
 }
 
+.scrolled {
+    background-color: #3a4660 !important;
+    transition: background-color 200ms linear;
+    opacity: .75;
+}
+
+.scrolled .nav-item a {
+    color: #f1f0ee !important;
+}
+
 .nav-container {
     width: 100%;
     position: fixed;
