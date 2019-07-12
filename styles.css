@@ -18,6 +18,12 @@ a:hover {
     float: right !important;
 }
 
+.nav-container {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
 .nav-item a {
     color: #3a4660 !important;
 }
@@ -69,6 +75,7 @@ a:hover {
     margin: 0;
     border: none;
     background: transparent;
+    position: static;
 }
 
 .card-deck {
@@ -132,6 +139,7 @@ a:hover {
     height: 100%;
     margin-top: 100px;
     margin-bottom: 100px;
+    position: static;
 }
 
 .text-white {
