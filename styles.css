@@ -1,15 +1,17 @@
 body {
     height: 100%;
-    background-color: #f1f0ee;
+    background: rgb(48,58,144);
+    background: linear-gradient(90deg, rgba(48,58,144,1) 17%, rgba(40,171,66,1) 83%);
+    color: white;
 }
 
 a {
     text-decoration: none;
-    color: #3a4660;
+    color: white;
 }
 
 a:hover {
-    color: #3a4660;
+    color: white;
     text-decoration: none;
 }
 
@@ -19,7 +21,7 @@ a:hover {
 }
 
 .scrolled {
-    background-color: #3a4660 !important;
+    background-color: rgba(48,58,144,1) !important;
     transition: background-color 200ms linear;
     opacity: .75;
 }
@@ -35,7 +37,7 @@ a:hover {
 }
 
 .nav-item a {
-    color: #3a4660 !important;
+    color: white !important;
 }
 
 .navbar-brand {
@@ -59,7 +61,7 @@ a:hover {
 
 .jumbotron {
     background: transparent;
-    color: #3a4660;
+    color: white;
     text-align: center;
     padding-bottom: 0;
 }
@@ -99,18 +101,18 @@ a:hover {
 }
 
 .card-body-text {
-    color: #3a4660;
+    color: white;
     line-height: 50px;
 }
 
 .card-title {
     font-size: 60px;
-    color: #3a4660;
+    color: white;
 }
 
 .card-img {
     border-radius: 1%;
-    box-shadow: 5px 5px 20px black;
+    box-shadow: 5px 5px 20px rgb(65, 99, 72);
 }
 
 .card-text {
@@ -131,6 +133,7 @@ a:hover {
 
 .underline {
     text-decoration: underline;
+    
 }
 
 .text-outline {
@@ -173,7 +176,7 @@ a:hover {
     width: 80%;
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
 
 .hr-bottom {
@@ -181,11 +184,12 @@ a:hover {
     border: 0;
     height: 1px;
     margin-top: 50px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
 
 .partner-title {
     padding-bottom: 50px;
+    font-weight: normal;
 }
 
 .partner-text-container {
@@ -197,6 +201,10 @@ a:hover {
 
 .partner-text {
     line-height: 50px;
+}
+
+.btn {
+    border: none;
 }
 
 footer {
@@ -271,7 +279,7 @@ footer h3 {
 /*media object css*/
 
 .headshot {
-    width: 200px;
+    max-width: 200px;
 }
 
 .media {
@@ -282,7 +290,7 @@ footer h3 {
 }
 
 .staff-container {
-    color: #3a4660 !important;
+    color: white !important;
     padding-top: 50px;
     text-align: center;
 }
@@ -315,6 +323,16 @@ footer h3 {
     }
 }
 
+@media only screen and (max-width: 991px) {            
+    .nav-container {
+        background-color: rgba(48,58,144,1);
+    }
+
+    .nav-item a {
+        color: white !important;
+    }
+}
+
 @media only screen and (max-width: 550px) {
     .row {
        flex-direction: column;
@@ -338,12 +356,12 @@ footer h3 {
     }
 
     .page-break-header {
-        color: #3a4660 !important;
+        color: white !important;
         font-size: 70px;
     }
 
     .page-break-text {
-        color: #3a4660 !important;
+        color: white !important;
     }
 
     .display-2 {
@@ -356,6 +374,68 @@ footer h3 {
 
     .card-text {
         font-size: 25px;
+        color: white !important;
+    }
+
+    .about-header {
+        padding-top: 80px;
+    }
+
+    
+
+    .quote {
+        font-weight: normal;
+        font-size: 25px;
+    }
+
+    .nav-item {
+        float: left !important;
+    }
+
+    .media {
+        max-width: 100%;
+        margin: 0px;
+    }
+
+    .headshot {
+        max-width: 150px;
+        padding-left: 5px;
+    }
+
+    .staff-header {
+        font-size: 60px;
+    }
+
+    .staff-body-container {
+        margin-top: 0;
+    }
+
+    .staff-about {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .staff-name {
+        font-size: 25px;
+    }
+
+    .partner-title {
+        font-size: 60px;
+    }
+
+    .partner-header {
+        font-size: 60px;
+    }
+
+    .partner-text {
+        line-height: 35px;
+        font-size: 20px;        
+    }
+
+    .partner-text-container {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
     }
 }
 @media only screen and (max-width: 480px) {
@@ -363,7 +443,5 @@ footer h3 {
     position: absolute;
     left: 20px;
     top: 20px;
-
   }
-
 }
