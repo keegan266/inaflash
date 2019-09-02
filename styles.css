@@ -1,4 +1,4 @@
-body {
+body  {
     height: 100%;
     background: rgb(48,58,144);
     background: linear-gradient(90deg, rgba(48,58,144,1) 17%, rgba(40,171,66,1) 83%);
@@ -133,7 +133,7 @@ a:hover {
 
 .underline {
     text-decoration: underline;
-    
+
 }
 
 .text-outline {
@@ -274,6 +274,12 @@ footer h3 {
  top: 120px;
 }
 
+.calendar-footer{
+  position: absolute;
+  bottom: -280px;
+  right: 560px;
+
+}
 /* Calender CSS end */
 
 /* Gallery CSS */
@@ -407,7 +413,7 @@ footer h3 {
     }
 }
 
-@media only screen and (max-width: 991px) {            
+@media only screen and (max-width: 991px) {
     .nav-container {
         background-color: rgba(48,58,144,1);
     }
@@ -465,7 +471,7 @@ footer h3 {
         padding-top: 80px;
     }
 
-    
+
 
     .quote {
         font-weight: normal;
@@ -513,7 +519,7 @@ footer h3 {
 
     .partner-text {
         line-height: 35px;
-        font-size: 20px;        
+        font-size: 20px;
     }
 
     .partner-text-container {
@@ -521,11 +527,4 @@ footer h3 {
         margin-right: 0;
         width: 100%;
     }
-}
-@media only screen and (max-width: 480px) {
-  .calendar-position{
-    position: absolute;
-    left: 20px;
-    top: 20px;
-  }
 }
