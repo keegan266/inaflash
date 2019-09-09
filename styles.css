@@ -269,20 +269,22 @@ footer h3 {
 /*  Calendar CSS  */
 
 .calendar-position{
- position: absolute;
- left: 355px;
- top: 120px;
+ position: relative;
+ top: 100px;
 }
 
-.calendar-footer{
-  position: absolute;
-  bottom: -280px;
-  right: 560px;
+
 
 }
 /* Calender CSS end */
 
 /* Gallery CSS */
+.item1{
+  position: absolute;
+  left: 75px;
+  top: 100px;
+
+}
 .hovereffect {
   width: 80%;
   height: 80%;
